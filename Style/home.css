@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    max-width: 1280px;
+}
+/*Screen pictures*/
+@media only screen and (min-width:375px){
+    body {
+        background: url("/assets/home/background-home-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    }
+@media only screen and (min-width:768px){
+    body {
+        background: url("/assets/home/background-home-tablet.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .navbar{
+        min-width:680px;
+    }
+    }
+@media only screen and (min-width:1280px){
+    body {
+        background: url("/assets/home/background-home-desktop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+.line{
+        flex: 1;
+        min-width: 300px;
+        border-bottom: 1px solid rgb(226, 226, 236);
+        position: relative;
+        bottom: 45px;
+        left: 40px;
+      }
+    }
+.line{
+    flex: 1;
+}
+.navbar{
+    background-color: rgba(95, 91, 115, 0.4);
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    flex: 2;
+}
+.nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: "Barlow Condensed", sans-serif;
+    margin:0px 10px;
+}
+.nav a:hover{
+    border-bottom: 5px solid rgb(10, 10, 121);
+    padding-bottom: 10px;
+}
+span{
+    font-weight: bold;
+    padding-right: 10px;
+}
+#logo{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.icon-bar {
+    color: white;
+    border-color: white;
+    background-color: white;
+  }
+  .col-md-12{
+      display:flex ;
+  }
