@@ -1,15 +1,19 @@
 body{
+  margin: 0;
     height: 100vh;
-    max-width: 1280px;
+    max-width: 1000px;
 }
 /*Screen pictures*/
-@media only screen and (min-width:375px){
+@media only screen and (min-width:200px){
     body {
         background: url("/assets/home/background-home-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
     }
+    .col-md-4{
+      margin-left: 25%;
+     }
     }
 @media only screen and (min-width:768px){
     body {
@@ -21,6 +25,13 @@ body{
     .navbar{
         min-width:680px;
     }
+    .col-md-4{
+      margin-left: 75%;
+      margin-bottom: 5%;
+      position: relative;
+      bottom: 200px;
+      padding-left: 5%;
+     } 
     }
 @media only screen and (min-width:1280px){
     body {
@@ -28,6 +39,7 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+        width: 100vw;
     }
 .line{
         flex: 1;
@@ -37,6 +49,12 @@ body{
         bottom: 45px;
         left: 40px;
       }
+      .col-md-4{
+        margin-left: 85%;
+        margin-bottom: 5%;
+        position: relative;
+        bottom: 20px;
+       }
     }
 .line{
     flex: 1;
@@ -47,7 +65,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
     flex: 2;
 }
 .nav a{
@@ -81,4 +99,37 @@ span{
   }
   .col-md-12{
       display:flex ;
+  }
+  .para{
+    color: white;
+    font-family: "Bellefair" ,serif;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 5px 80px 5px 0px;
+  }
+  .para1{
+    font-size: 25px;
+    margin: 10px;
+  }
+  .para2{
+    font-size: 60px;
+    margin: 10px;
+  }
+  .para3{
+    font-size: 20px;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 10px;
+  }
+  .explore{
+    font-size: 25px;
+    font-family: "Bellefair" ,serif;
+    color: rgb(14, 14, 14);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 150px;
+    padding: 80px 60px 90px;
+    
   }
